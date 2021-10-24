@@ -13,7 +13,7 @@
                 if (!Character.isWhitespace(line.charAt(i))) {
                     s += line.charAt(i);
                 }
-                else { // works for head spaces but produces two spaces after the first word
+                else { // works for head spaces but produces two spaces after the first word. Couldn't elimintate tab.
                     if (i == 0) {
                         while (Character.isWhitespace(line.charAt(i))) {
                             i++;
