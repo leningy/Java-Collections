@@ -4,3 +4,4 @@
 - Do not use == to compare objects as it would compare references to objects, not the value of the objects.
 - Be careful when declaring variables inside conditionals, especially when the variables are use in later operations outside the conditionals.
 - Constructors have no return type.
+- <Java: Identifier expected> declare variable outside of try block.
