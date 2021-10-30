@@ -7,6 +7,6 @@ public boolean equals(Object other) {
         if (other instanceof RationalNumber) {
             RationalNumber r = (RationalNumber) other;
             return numerator == r.getNumerator() && denominator == r.getDenominator();
-        }
+        } // to pass strings: numerator.equals(r.getNumerator);
         return false;
     }
