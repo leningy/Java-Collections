@@ -8,3 +8,4 @@
 - <error: class, interface, or enum expected> typically occurs when there is an additional curly brace at the end of the program.
 - In 2d arrays, arrayName.length refers to # of rows, and arrayName.length[0] refers to # of columns in row 0.
 - Out of bound: notice that i++ has updated the status of i (since using i outside of the loop, i needs to be initialized outside the loop).
+- PrintWriter no output? Do close it!
