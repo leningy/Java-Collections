@@ -9,3 +9,4 @@
 - In 2d arrays, arrayName.length refers to # of rows, and arrayName.length[0] refers to # of columns in row 0.
 - Out of bound: notice that i++ has updated the status of i (since using i outside of the loop, i needs to be initialized outside the loop).
 - PrintWriter no output? Do close it!
+- NoSuchElementException: pass value to next() before using hasNext() to check if there are more tokens.
