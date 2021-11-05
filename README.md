@@ -10,3 +10,4 @@
 - Out of bound: notice that i++ has updated the status of i (since using i outside of the loop, i needs to be initialized outside the loop).
 - PrintWriter no output? Do close it!
 - NoSuchElementException: pass value to next() before using hasNext() to check if there are more tokens.
+- IllegalStateException: thrown when method invoked inappropriately.
