@@ -11,3 +11,4 @@
 - PrintWriter no output? Do close it!
 - NoSuchElementException: pass value to next() before using hasNext() to check if there are more tokens.
 - IllegalStateException: thrown when method invoked inappropriately.
+- Unified Modeling Language (UML): 0..* --> zero or more instances; 1..1 --> exactly one instance
