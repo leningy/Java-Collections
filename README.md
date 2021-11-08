@@ -12,3 +12,4 @@
 - NoSuchElementException: pass value to next() before using hasNext() to check if there are more tokens.
 - IllegalStateException: thrown when method invoked inappropriately.
 - Unified Modeling Language (UML): 0..* --> zero or more instances; 1..1 --> exactly one instance
+- ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
