@@ -6,10 +6,14 @@
 - Constructors have no return type.
 - <Java: Identifier expected> declare variable outside of try block.
 - <error: class, interface, or enum expected> typically occurs when there is an additional curly brace at the end of the program.
-- In 2d arrays, arrayName.length refers to # of rows, and arrayName.length[0] refers to # of columns in row 0.
-- Out of bound: notice that i++ has updated the status of i (since using i outside of the loop, i needs to be initialized outside the loop).
 - PrintWriter no output? Do close it!
 - NoSuchElementException: pass value to next() before using hasNext() to check if there are more tokens.
 - IllegalStateException: thrown when method invoked inappropriately.
 - Unified Modeling Language (UML): 0..* --> zero or more instances; 1..1 --> exactly one instance
 - ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
+
+## Arrays related
+- OUT OF BOUND: make sure the sequence of conditions inside a for loop are taken into consideration, such as condition before and after ||.
+- In 2d arrays, arrayName.length refers to # of rows, and arrayName.length[0] refers to # of columns in row 0.
+- Out of bound: notice that i++ has updated the status of i (since using i outside of the loop, i needs to be initialized outside the loop).
+
