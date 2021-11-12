@@ -10,7 +10,7 @@
 - <Java: Identifier expected> declare variable outside of try block.
 - <error: class, interface, or enum expected> typically occurs when there is an additional curly brace at the end of the program.
 - IllegalStateException: thrown when method invoked inappropriately.
-- NoSuchElementException: pass value to next() before using hasNext() to check if there are more tokens.
+- NoSuchElementException: pass value to next() before using hasNext() to check if there are more tokens. thrown by scanner
 
 ## Arrays related
 - OUT OF BOUND: make sure the sequence of conditions inside a for loop are taken into consideration, such as condition that checks null for an object should be put before || if the second condition involves the same object in not null conditions.
