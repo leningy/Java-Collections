@@ -17,7 +17,8 @@
 - In 2d arrays, arrayName.length refers to # of rows, and arrayName.length[0] refers to # of columns in row 0.
 - Out of bound: notice that i++ has updated the status of i (since using i outside of the loop, i needs to be initialized outside the loop).
 - ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
+- Enhanced for loop: iterate through ArrayList.
 
 ## Interacting classes
-- Unified Modeling Language (UML): 0..* --> zero or more instances; 1..1 --> exactly one instance
+- Unified Modeling Language (UML): 0..* --> zero or more instances; 1..1 --> exactly one instance.
 - In a class's method that attempts to modify another class's object, use conditions to check if the object is null; if null then nothing can be modified.
