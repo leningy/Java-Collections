@@ -5,6 +5,7 @@
 - Be careful when declaring variables inside conditionals, especially when the variables are use in later operations outside the conditionals.
 - Constructors have no return type.
 - PrintWriter no output? Close it!
+- Enter the full path name, otherwise it'll say file does not exist.
 
 ## Error handling
 - <Java: Identifier expected> declare variable outside of try block.
