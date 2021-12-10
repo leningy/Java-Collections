@@ -11,7 +11,7 @@
 - char cannot be dereferenced: character is a primitive type and not an object, so it cannot be derefferenced.
   Ex. Character.toUpperCase(str.charAt(0)); 
   Alt. str.substring(0,1).toUpperCase();
-- 
+- StringBuilder: create new object, call methods on instance, and convert toString()
 
 ## Error handling
 - <Java: Identifier expected> declare variable outside of try block.
@@ -25,6 +25,7 @@
 - Out of bound: notice that i++ has updated the status of i (since using i outside of the loop, i needs to be initialized outside the loop).
 - ArrayList can efficiently access elements at any valid index but inserts are expensive, whereas a LinkedList supports efficient inserts but access requires iterating through elements. So a program that will do many accesses and few inserts might use an ArrayList.
 - Enhanced for loop: iterate through ArrayList.
+- In method definition, '…' represents an array
 
 ## Interacting classes
 - Unified Modeling Language (UML): 0..* --> zero or more instances; 1..1 --> exactly one instance.
