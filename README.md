@@ -34,3 +34,8 @@
 
 ## Streams
 - **Stateless object** is an instance of a class without instance fields (instance variables). The class may have fields, but they are compile-time constants (static final).
+- **IntStream**
+  - mapToObj()
+  - rangeClosed()
+- **DoubleStream**
+- **LongStream**
