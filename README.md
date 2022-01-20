@@ -4,6 +4,7 @@
 - Constructors have no return type.
 - PrintWriter no output? Close it!
 - Enter the full path name, otherwise it'll say file does not exist.
+- If a method is not passing the test, also check its interacting methods.
 
 ## Char and String
 - Do not use == to compare objects as it would compare references to objects, not the value of the objects.
