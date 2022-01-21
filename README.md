@@ -14,6 +14,7 @@
   Ex. Character.toUpperCase(str.charAt(0)); 
   Alt. str.substring(0,1).toUpperCase();
 - StringBuilder: create new object, call methods on instance, and convert toString()
+- Strings are immutable!
 
 ## Error handling
 - <Java: Identifier expected> declare variable outside of try block.
