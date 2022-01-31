@@ -35,6 +35,7 @@
 ## Interacting classes
 - Unified Modeling Language (UML): 0..* --> zero or more instances; 1..1 --> exactly one instance.
 - In a class's method that attempts to modify another class's object, use conditions to check if the object is null; if null then nothing can be modified.
+- A static method is a method that belongs to a class, but it does not belong to an instance of that class and this method can be called without the instance or object of that class. Ex. Classname.getName() is a static method reference, while classInstance.getName() is a non-static call.
 
 ## Streams
 - **Stateless object** is an instance of a class without instance fields (instance variables). The class may have fields, but they are compile-time constants (static final).
